@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import "../App.css";
 import { RiDeleteBin7Fill } from "react-icons/ri";
-import { Auth } from "./components/auth";
-import { db, auth, storage } from "./config/firebase";
+import { Auth } from "./auth";
+import { db, auth, storage } from "../config/firebase";
 import { FaEdit } from "react-icons/fa";
 import { TbTrophyOff } from "react-icons/tb";
 import { BiSolidTrophy } from "react-icons/bi";
